@@ -1,0 +1,87 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/assets/images/Background\ Image.jpg");
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#gameScreen {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+
+#imgBall {
+    display: none;
+}
+
+#imgBrick {
+    display: none;
+}
+
+#gamestart {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width : 800px;
+    height: 600px;
+}
+
+#start {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    height: 600px;
+    opacity: 0.3;
+}
+
+#gameover {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width : 800px;
+    height: 600px;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+
+#youwon {
+    width: 100px;
+    position: absolute;
+    top : 100px;
+    left : 350px;
+    display: none;
+}
+
+#wonText {
+    width: 400px;
+    position: absolute;
+    top : 230px;
+    left : 230px;
+    font-size: 30px;
+    color : #FFF;
+    display: none;
+} 
+
+#youlose {
+    width:400px;
+    position: absolute;
+    top: 100px;
+    left : 210px;
+    display: none;
+}
+
+#restart {
+    position: absolute;
+    top: 310px;
+    left : 330px;
+    cursor: pointer;
+    font-size: 30px;
+    color : #FFF;
+}
+
